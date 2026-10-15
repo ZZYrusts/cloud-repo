@@ -1,0 +1,8 @@
+name = "zzy-snake-api"
+main = "worker.js"
+compatibility_date = "2026-10-16"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "snake-game-db"
+database_id = "179de02d-5f2f-4c11-aea4-d074ab7d5b07"
