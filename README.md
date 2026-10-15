@@ -1,11 +1,13 @@
-# ZZY Snake 🐍
+# ZZY Gomoku ⚫
 
-在线贪吃蛇 + 全服排行榜。
+在线五子棋，AI 黑棋先手。
 
-- 前端：GitHub Pages / https://git.zzy.skin
-- API：Cloudflare Workers / https://api.git.zzy.skin
-- 数据库：Cloudflare D1 / snake-game-db
+- 15×15 棋盘
+- 手机点击落子
+- AI 必胜点/防守点检测
+- αβ 搜索与候选点排序
+- 悔棋与新局
 
-index.html 是游戏前端，worker.js 是排行榜 API，schema.sql 是 D1 初始化结构。
+纯前端运行，无需数据库或 API。
 
-> 排行榜为休闲榜，客户端提交分数，未接入账号认证或强反作弊。
+> AI 目标是实战极强、尽量不败；严格数学意义的“保证百胜”需要完整求解整个五子棋博弈树，因此不虚构绝对保证。
